@@ -1,0 +1,16 @@
+git checkout <branch>
+//to full load targeted branch
+git reset --hard origin/main
+
+//to show UI
+git gui
+
+//to see history
+gitk
+
+//to push branch
+git push origin <branch>
+git push <repository> <branch>
+
+
+let say i do something branch A, git checkout branch B, if i reset hard i will take away branch A stuff and fully load branch B stuff
