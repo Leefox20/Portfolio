@@ -1,0 +1,110 @@
+html{
+    font-size: 10px;
+  }
+  body{
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Helvetica;
+    font-size:1.6rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  main{
+    padding:15px;
+    background-color: #eeeeee;
+    margin: 30px 8px;
+    border-radius: 10px;
+  }
+  
+  @media(max-width: 460px){
+    #main{
+      margin: 0;
+    }
+  }
+  
+  header{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 15px;
+  }
+  
+  @media (max-width: 460px) {
+  h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }}
+  
+  h2{
+    font-size: 3.25rem;
+  }
+  
+  #img-div{
+    background-color: #dfdfdf;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  #image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #img-caption{
+      margin: 15px 0 5px 0;
+    }
+  
+  @media (max-width: 460px){
+  #img-caption{
+      font-size: 1.4rem;
+    }
+  }
+  
+  .bold{
+    font-weight: bold;
+  }
+  
+  legend{
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li{
+    margin: 16px 0;
+  }
+  
+  #citation{
+    max-width: 450px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-style: italic;
+  }
+  
+  #website{
+    text-align: center;
+  }
+  
+  a:link{
+    color: blue;
+  }
+  
+  a:visited{
+    color: red;
+  }
+  
+  a:hover{
+    color: purple;
+  }
+  
